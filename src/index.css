@@ -11,3 +11,17 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.nav-link{
+  margin-left: 40px;
+}
+/* src/Navbar.css or src/App.css */
+.custom-navbar-border {
+  border-bottom-width: 3px !important; /* Adjust as needed (e.g., 2px, 4px) */
+  border-bottom-style: solid; /* Ensure it's solid */
+  border-bottom-color: #e5e7eb; /* Default light gray for Bootstrap border, or choose your own */
+}
+.form-control-no-focus:focus {
+    box-shadow: none !important;
+    border-color: #ced4da; 
+}
